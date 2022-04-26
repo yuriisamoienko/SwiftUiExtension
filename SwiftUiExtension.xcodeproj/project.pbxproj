@@ -25,6 +25,7 @@
 		5AEA81A128182D73009055F4 /* SwiftUiExtensionMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEA819728182D73009055F4 /* SwiftUiExtensionMac.framework */; };
 		5AEA81A628182D73009055F4 /* SwiftUiExtensionMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA81A528182D73009055F4 /* SwiftUiExtensionMacTests.swift */; };
 		5AEA81A728182D73009055F4 /* SwiftUiExtensionMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AEA819928182D73009055F4 /* SwiftUiExtensionMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AEA81C4281835A3009055F4 /* NothingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA81C3281835A3009055F4 /* NothingModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		5AEA819A28182D73009055F4 /* SwiftUiExtensionMac.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftUiExtensionMac.docc; sourceTree = "<group>"; };
 		5AEA81A028182D73009055F4 /* SwiftUiExtensionMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiExtensionMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEA81A528182D73009055F4 /* SwiftUiExtensionMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiExtensionMacTests.swift; sourceTree = "<group>"; };
+		5AEA81C3281835A3009055F4 /* NothingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NothingModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				5A9E99D92817F17400834E0E /* PreviewDeviceModifier.swift */,
+				5AEA81C3281835A3009055F4 /* NothingModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A9E99D32817F0D400834E0E /* AnyTransitionExtension.swift in Sources */,
+				5AEA81C4281835A3009055F4 /* NothingModifier.swift in Sources */,
 				5A9E99D22817F0D400834E0E /* AnimationExtension.swift in Sources */,
 				5A9E99B02817F00C00834E0E /* SwiftUiExtension.docc in Sources */,
 				5A9E99DA2817F17400834E0E /* PreviewDeviceModifier.swift in Sources */,
