@@ -22,6 +22,7 @@ public extension PreviewDevice {
     
     static let AppleWatchSeries5_44mm = PreviewDevice("Apple Watch Series 5 - 44mm")
     static let AppleWatchSeries5_40mm = PreviewDevice("Apple Watch Series 5 - 40mm")
+    static let iPhone8 = PreviewDevice("iPhone 8")
     
     // MARK: Public Functions
     

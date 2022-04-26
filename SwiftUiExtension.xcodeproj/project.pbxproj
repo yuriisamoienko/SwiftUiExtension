@@ -14,18 +14,8 @@
 		5A9E99D22817F0D400834E0E /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E99D02817F0D400834E0E /* AnimationExtension.swift */; };
 		5A9E99D32817F0D400834E0E /* AnyTransitionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E99D12817F0D400834E0E /* AnyTransitionExtension.swift */; };
 		5A9E99DA2817F17400834E0E /* PreviewDeviceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E99D92817F17400834E0E /* PreviewDeviceModifier.swift */; };
-		5A9E99FA28180CF700834E0E /* SwiftUiExtension_WatchOS.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E99F928180CF700834E0E /* SwiftUiExtension_WatchOS.docc */; };
-		5A9E9A0028180CF700834E0E /* SwiftUiExtension_WatchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9E99F628180CF700834E0E /* SwiftUiExtension_WatchOS.framework */; };
-		5A9E9A0528180CF700834E0E /* SwiftUiExtension_WatchOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E9A0428180CF700834E0E /* SwiftUiExtension_WatchOSTests.swift */; };
-		5A9E9A0628180CF700834E0E /* SwiftUiExtension_WatchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9E99F828180CF700834E0E /* SwiftUiExtension_WatchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A9E9A0D28180D0C00834E0E /* PreviewDeviceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E99D92817F17400834E0E /* PreviewDeviceModifier.swift */; };
-		5A9E9A0E28180D1000834E0E /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E99D02817F0D400834E0E /* AnimationExtension.swift */; };
-		5A9E9A0F28180D1000834E0E /* AnyTransitionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E99D12817F0D400834E0E /* AnyTransitionExtension.swift */; };
-		5AEA819B28182D73009055F4 /* SwiftUiExtensionMac.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA819A28182D73009055F4 /* SwiftUiExtensionMac.docc */; };
-		5AEA81A128182D73009055F4 /* SwiftUiExtensionMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEA819728182D73009055F4 /* SwiftUiExtensionMac.framework */; };
-		5AEA81A628182D73009055F4 /* SwiftUiExtensionMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA81A528182D73009055F4 /* SwiftUiExtensionMacTests.swift */; };
-		5AEA81A728182D73009055F4 /* SwiftUiExtensionMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AEA819928182D73009055F4 /* SwiftUiExtensionMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AEA81C4281835A3009055F4 /* NothingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA81C3281835A3009055F4 /* NothingModifier.swift */; };
+		5AEA81CB28184A8F009055F4 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA81CA28184A8F009055F4 /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +25,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5A9E99AA2817F00C00834E0E;
 			remoteInfo = SwiftUiExtension;
-		};
-		5A9E9A0128180CF700834E0E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A9E99A22817F00C00834E0E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A9E99F528180CF700834E0E;
-			remoteInfo = SwiftUiExtension_WatchOS;
-		};
-		5AEA81A228182D73009055F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A9E99A22817F00C00834E0E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5AEA819628182D73009055F4;
-			remoteInfo = SwiftUiExtensionMac;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -61,17 +37,14 @@
 		5A9E99D02817F0D400834E0E /* AnimationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
 		5A9E99D12817F0D400834E0E /* AnyTransitionExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyTransitionExtension.swift; sourceTree = "<group>"; };
 		5A9E99D92817F17400834E0E /* PreviewDeviceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDeviceModifier.swift; sourceTree = "<group>"; };
-		5A9E99F628180CF700834E0E /* SwiftUiExtension_WatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUiExtension_WatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9E99F828180CF700834E0E /* SwiftUiExtension_WatchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUiExtension_WatchOS.h; sourceTree = "<group>"; };
 		5A9E99F928180CF700834E0E /* SwiftUiExtension_WatchOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftUiExtension_WatchOS.docc; sourceTree = "<group>"; };
-		5A9E99FF28180CF700834E0E /* SwiftUiExtension_WatchOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiExtension_WatchOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9E9A0428180CF700834E0E /* SwiftUiExtension_WatchOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiExtension_WatchOSTests.swift; sourceTree = "<group>"; };
-		5AEA819728182D73009055F4 /* SwiftUiExtensionMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUiExtensionMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEA819928182D73009055F4 /* SwiftUiExtensionMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUiExtensionMac.h; sourceTree = "<group>"; };
 		5AEA819A28182D73009055F4 /* SwiftUiExtensionMac.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftUiExtensionMac.docc; sourceTree = "<group>"; };
-		5AEA81A028182D73009055F4 /* SwiftUiExtensionMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiExtensionMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AEA81A528182D73009055F4 /* SwiftUiExtensionMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiExtensionMacTests.swift; sourceTree = "<group>"; };
 		5AEA81C3281835A3009055F4 /* NothingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NothingModifier.swift; sourceTree = "<group>"; };
+		5AEA81CA28184A8F009055F4 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,36 +60,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A9E99B62817F00C00834E0E /* SwiftUiExtension.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9E99F328180CF700834E0E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9E99FC28180CF700834E0E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A9E9A0028180CF700834E0E /* SwiftUiExtension_WatchOS.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AEA819428182D73009055F4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AEA819D28182D73009055F4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5AEA81A128182D73009055F4 /* SwiftUiExtensionMac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +84,6 @@
 			children = (
 				5A9E99AB2817F00C00834E0E /* SwiftUiExtension.framework */,
 				5A9E99B52817F00C00834E0E /* SwiftUiExtensionTests.xctest */,
-				5A9E99F628180CF700834E0E /* SwiftUiExtension_WatchOS.framework */,
-				5A9E99FF28180CF700834E0E /* SwiftUiExtension_WatchOSTests.xctest */,
-				5AEA819728182D73009055F4 /* SwiftUiExtensionMac.framework */,
-				5AEA81A028182D73009055F4 /* SwiftUiExtensionMacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,6 +121,7 @@
 			children = (
 				5A9E99D12817F0D400834E0E /* AnyTransitionExtension.swift */,
 				5A9E99D02817F0D400834E0E /* AnimationExtension.swift */,
+				5AEA81CA28184A8F009055F4 /* ViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -231,22 +171,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A9E99F128180CF700834E0E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A9E9A0628180CF700834E0E /* SwiftUiExtension_WatchOS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AEA819228182D73009055F4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5AEA81A728182D73009055F4 /* SwiftUiExtensionMac.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -286,78 +210,6 @@
 			productReference = 5A9E99B52817F00C00834E0E /* SwiftUiExtensionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5A9E99F528180CF700834E0E /* SwiftUiExtension_WatchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A9E9A0728180CF700834E0E /* Build configuration list for PBXNativeTarget "SwiftUiExtension_WatchOS" */;
-			buildPhases = (
-				5A9E99F128180CF700834E0E /* Headers */,
-				5A9E99F228180CF700834E0E /* Sources */,
-				5A9E99F328180CF700834E0E /* Frameworks */,
-				5A9E99F428180CF700834E0E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftUiExtension_WatchOS;
-			productName = SwiftUiExtension_WatchOS;
-			productReference = 5A9E99F628180CF700834E0E /* SwiftUiExtension_WatchOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5A9E99FE28180CF700834E0E /* SwiftUiExtension_WatchOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A9E9A0A28180CF700834E0E /* Build configuration list for PBXNativeTarget "SwiftUiExtension_WatchOSTests" */;
-			buildPhases = (
-				5A9E99FB28180CF700834E0E /* Sources */,
-				5A9E99FC28180CF700834E0E /* Frameworks */,
-				5A9E99FD28180CF700834E0E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A9E9A0228180CF700834E0E /* PBXTargetDependency */,
-			);
-			name = SwiftUiExtension_WatchOSTests;
-			productName = SwiftUiExtension_WatchOSTests;
-			productReference = 5A9E99FF28180CF700834E0E /* SwiftUiExtension_WatchOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5AEA819628182D73009055F4 /* SwiftUiExtensionMac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5AEA81A828182D73009055F4 /* Build configuration list for PBXNativeTarget "SwiftUiExtensionMac" */;
-			buildPhases = (
-				5AEA819228182D73009055F4 /* Headers */,
-				5AEA819328182D73009055F4 /* Sources */,
-				5AEA819428182D73009055F4 /* Frameworks */,
-				5AEA819528182D73009055F4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftUiExtensionMac;
-			productName = SwiftUiExtensionMac;
-			productReference = 5AEA819728182D73009055F4 /* SwiftUiExtensionMac.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5AEA819F28182D73009055F4 /* SwiftUiExtensionMacTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5AEA81AB28182D73009055F4 /* Build configuration list for PBXNativeTarget "SwiftUiExtensionMacTests" */;
-			buildPhases = (
-				5AEA819C28182D73009055F4 /* Sources */,
-				5AEA819D28182D73009055F4 /* Frameworks */,
-				5AEA819E28182D73009055F4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5AEA81A328182D73009055F4 /* PBXTargetDependency */,
-			);
-			name = SwiftUiExtensionMacTests;
-			productName = SwiftUiExtensionMacTests;
-			productReference = 5AEA81A028182D73009055F4 /* SwiftUiExtensionMacTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -372,18 +224,6 @@
 						CreatedOnToolsVersion = 13.3.1;
 					};
 					5A9E99B42817F00C00834E0E = {
-						CreatedOnToolsVersion = 13.3.1;
-					};
-					5A9E99F528180CF700834E0E = {
-						CreatedOnToolsVersion = 13.3.1;
-					};
-					5A9E99FE28180CF700834E0E = {
-						CreatedOnToolsVersion = 13.3.1;
-					};
-					5AEA819628182D73009055F4 = {
-						CreatedOnToolsVersion = 13.3.1;
-					};
-					5AEA819F28182D73009055F4 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
@@ -403,10 +243,6 @@
 			targets = (
 				5A9E99AA2817F00C00834E0E /* SwiftUiExtension */,
 				5A9E99B42817F00C00834E0E /* SwiftUiExtensionTests */,
-				5A9E99F528180CF700834E0E /* SwiftUiExtension_WatchOS */,
-				5A9E99FE28180CF700834E0E /* SwiftUiExtension_WatchOSTests */,
-				5AEA819628182D73009055F4 /* SwiftUiExtensionMac */,
-				5AEA819F28182D73009055F4 /* SwiftUiExtensionMacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -426,34 +262,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A9E99F428180CF700834E0E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9E99FD28180CF700834E0E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AEA819528182D73009055F4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AEA819E28182D73009055F4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -461,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AEA81CB28184A8F009055F4 /* ViewExtension.swift in Sources */,
 				5A9E99D32817F0D400834E0E /* AnyTransitionExtension.swift in Sources */,
 				5AEA81C4281835A3009055F4 /* NothingModifier.swift in Sources */,
 				5A9E99D22817F0D400834E0E /* AnimationExtension.swift in Sources */,
@@ -477,41 +286,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A9E99F228180CF700834E0E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A9E9A0E28180D1000834E0E /* AnimationExtension.swift in Sources */,
-				5A9E99FA28180CF700834E0E /* SwiftUiExtension_WatchOS.docc in Sources */,
-				5A9E9A0D28180D0C00834E0E /* PreviewDeviceModifier.swift in Sources */,
-				5A9E9A0F28180D1000834E0E /* AnyTransitionExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A9E99FB28180CF700834E0E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A9E9A0528180CF700834E0E /* SwiftUiExtension_WatchOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AEA819328182D73009055F4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5AEA819B28182D73009055F4 /* SwiftUiExtensionMac.docc in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AEA819C28182D73009055F4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5AEA81A628182D73009055F4 /* SwiftUiExtensionMacTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -519,16 +293,6 @@
 			isa = PBXTargetDependency;
 			target = 5A9E99AA2817F00C00834E0E /* SwiftUiExtension */;
 			targetProxy = 5A9E99B72817F00C00834E0E /* PBXContainerItemProxy */;
-		};
-		5A9E9A0228180CF700834E0E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A9E99F528180CF700834E0E /* SwiftUiExtension_WatchOS */;
-			targetProxy = 5A9E9A0128180CF700834E0E /* PBXContainerItemProxy */;
-		};
-		5AEA81A328182D73009055F4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5AEA819628182D73009055F4 /* SwiftUiExtensionMac */;
-			targetProxy = 5AEA81A228182D73009055F4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -585,6 +349,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -642,6 +412,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -656,6 +432,11 @@
 		5A9E99C02817F00C00834E0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -672,19 +453,29 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "iosdeveloper-232362.SwiftUiExtension";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = "watchos iphoneos macosx";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos watchos watchsimulator appletvos appletvsimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
 		5A9E99C12817F00C00834E0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -701,13 +492,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "iosdeveloper-232362.SwiftUiExtension";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = "watchos iphoneos macosx";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos watchos watchsimulator appletvos appletvsimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -745,210 +541,6 @@
 			};
 			name = Release;
 		};
-		5A9E9A0828180CF700834E0E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					x86_64,
-				);
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = QN4ZAR6A43;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "iosdeveloper-232362.SwiftUiExtension-WatchOS";
-				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Debug;
-		};
-		5A9E9A0928180CF700834E0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					x86_64,
-				);
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = QN4ZAR6A43;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "iosdeveloper-232362.SwiftUiExtension-WatchOS";
-				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Release;
-		};
-		5A9E9A0B28180CF700834E0E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QN4ZAR6A43;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "iosdeveloper-232362.SwiftUiExtension-WatchOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Debug;
-		};
-		5A9E9A0C28180CF700834E0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QN4ZAR6A43;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "iosdeveloper-232362.SwiftUiExtension-WatchOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Release;
-		};
-		5AEA81A928182D73009055F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = QN4ZAR6A43;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "iosdeveloper-232362.SwiftUiExtensionMac";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		5AEA81AA28182D73009055F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = QN4ZAR6A43;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "iosdeveloper-232362.SwiftUiExtensionMac";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		5AEA81AC28182D73009055F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QN4ZAR6A43;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "iosdeveloper-232362.SwiftUiExtensionMacTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		5AEA81AD28182D73009055F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QN4ZAR6A43;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "iosdeveloper-232362.SwiftUiExtensionMacTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -975,42 +567,6 @@
 			buildConfigurations = (
 				5A9E99C32817F00C00834E0E /* Debug */,
 				5A9E99C42817F00C00834E0E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5A9E9A0728180CF700834E0E /* Build configuration list for PBXNativeTarget "SwiftUiExtension_WatchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A9E9A0828180CF700834E0E /* Debug */,
-				5A9E9A0928180CF700834E0E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5A9E9A0A28180CF700834E0E /* Build configuration list for PBXNativeTarget "SwiftUiExtension_WatchOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A9E9A0B28180CF700834E0E /* Debug */,
-				5A9E9A0C28180CF700834E0E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5AEA81A828182D73009055F4 /* Build configuration list for PBXNativeTarget "SwiftUiExtensionMac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5AEA81A928182D73009055F4 /* Debug */,
-				5AEA81AA28182D73009055F4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5AEA81AB28182D73009055F4 /* Build configuration list for PBXNativeTarget "SwiftUiExtensionMacTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5AEA81AC28182D73009055F4 /* Debug */,
-				5AEA81AD28182D73009055F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
