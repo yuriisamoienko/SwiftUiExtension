@@ -29,4 +29,9 @@ public extension View {
         }
     }
     
+    // just do nothing, for conditional modifiers, for example: active ? .doNothing() : .hide()
+    func doNothing() -> some View {
+        self
+    }
+    
 }

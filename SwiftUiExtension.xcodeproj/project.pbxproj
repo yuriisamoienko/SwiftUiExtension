@@ -14,7 +14,7 @@
 		5A9E99D22817F0D400834E0E /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E99D02817F0D400834E0E /* AnimationExtension.swift */; };
 		5A9E99D32817F0D400834E0E /* AnyTransitionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E99D12817F0D400834E0E /* AnyTransitionExtension.swift */; };
 		5A9E99DA2817F17400834E0E /* PreviewDeviceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9E99D92817F17400834E0E /* PreviewDeviceModifier.swift */; };
-		5AEA81C4281835A3009055F4 /* NothingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA81C3281835A3009055F4 /* NothingModifier.swift */; };
+		5AEA81C4281835A3009055F4 /* ViewClosureModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA81C3281835A3009055F4 /* ViewClosureModifier.swift */; };
 		5AEA81CB28184A8F009055F4 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA81CA28184A8F009055F4 /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +43,7 @@
 		5AEA819928182D73009055F4 /* SwiftUiExtensionMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUiExtensionMac.h; sourceTree = "<group>"; };
 		5AEA819A28182D73009055F4 /* SwiftUiExtensionMac.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftUiExtensionMac.docc; sourceTree = "<group>"; };
 		5AEA81A528182D73009055F4 /* SwiftUiExtensionMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiExtensionMacTests.swift; sourceTree = "<group>"; };
-		5AEA81C3281835A3009055F4 /* NothingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NothingModifier.swift; sourceTree = "<group>"; };
+		5AEA81C3281835A3009055F4 /* ViewClosureModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewClosureModifier.swift; sourceTree = "<group>"; };
 		5AEA81CA28184A8F009055F4 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				5A9E99D92817F17400834E0E /* PreviewDeviceModifier.swift */,
-				5AEA81C3281835A3009055F4 /* NothingModifier.swift */,
+				5AEA81C3281835A3009055F4 /* ViewClosureModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -271,7 +271,7 @@
 			files = (
 				5AEA81CB28184A8F009055F4 /* ViewExtension.swift in Sources */,
 				5A9E99D32817F0D400834E0E /* AnyTransitionExtension.swift in Sources */,
-				5AEA81C4281835A3009055F4 /* NothingModifier.swift in Sources */,
+				5AEA81C4281835A3009055F4 /* ViewClosureModifier.swift in Sources */,
 				5A9E99D22817F0D400834E0E /* AnimationExtension.swift in Sources */,
 				5A9E99B02817F00C00834E0E /* SwiftUiExtension.docc in Sources */,
 				5A9E99DA2817F17400834E0E /* PreviewDeviceModifier.swift in Sources */,
