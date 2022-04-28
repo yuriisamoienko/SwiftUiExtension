@@ -66,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A32BF56281B1C5C0035DFA9 /* _projectfiles */ = {
+			isa = PBXGroup;
+			children = (
+				5A9E99AE2817F00C00834E0E /* SwiftUiExtension.h */,
+				5A9E99AF2817F00C00834E0E /* SwiftUiExtension.docc */,
+			);
+			path = _projectfiles;
+			sourceTree = "<group>";
+		};
 		5A9E99A12817F00C00834E0E = {
 			isa = PBXGroup;
 			children = (
@@ -91,10 +100,9 @@
 		5A9E99AD2817F00C00834E0E /* SwiftUiExtension */ = {
 			isa = PBXGroup;
 			children = (
+				5A32BF56281B1C5C0035DFA9 /* _projectfiles */,
 				5A9E99CF2817F0B800834E0E /* Extensions */,
 				5A9E99CE2817F0AE00834E0E /* Modifiers */,
-				5A9E99AE2817F00C00834E0E /* SwiftUiExtension.h */,
-				5A9E99AF2817F00C00834E0E /* SwiftUiExtension.docc */,
 			);
 			path = SwiftUiExtension;
 			sourceTree = "<group>";
