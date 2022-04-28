@@ -20,9 +20,10 @@ public extension View {
 
 public struct ViewClosureModifier: ViewModifier {
     
-    public typealias Effect = (Content) -> Void
+    public typealias Effect = (Content) -> AnyView
     
     // MARK: Private Properties
+    
     private let modifierClosure: Effect?
     
     // MARK: Public Functions
@@ -32,8 +33,7 @@ public struct ViewClosureModifier: ViewModifier {
     }
     
     public func body(content: Content) -> some View {
-        modifierClosure?(content) //?? content // do nothing
-        return content
+        return modifierClosure?(content) ?? AnyView(content)
     }
 }
 
@@ -50,9 +50,11 @@ public struct ViewClosureModifier: ViewModifier {
  
  struct MacOsView: View {[
      var body: some View {
-         CrossplatformView(effect: { _ = $0
-            .frame(width: 200
-         })
+         CrossplatformView(
+            effect: { AnyView($0
+                .frame(width: 200)
+             )}
+         )
      }
  }
  */
